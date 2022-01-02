@@ -46,8 +46,8 @@ JWT Token oluşturmak için
     {
         "refresh": ""
     }
-Kullanıcı proje yönetici ise istediği kullanıcıyı filtreleyebilir.
-Normal kullanıcılar sadece kendi projelerini listeleyebilir.
+Kullanıcı proje yönetici ise istediği tüm projeleri listeleyebilir ve kullanıcı filtreleyebilir.
+Normal kullanıcılar ise sadece kendi projelerini listeleyebilirler.
 
     get http://localhost:8000/projects?user=user5
 
