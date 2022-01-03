@@ -46,6 +46,17 @@ JWT Token oluşturmak için
     {
         "refresh": ""
     }
+
+Proje eklemek için
+
+    post http://localhost:8000/projects
+    {
+ 	    "name": "Project 10",
+	    "description": "Project 10 sadadasdasdxxxxx",
+	    "start_date": "2022-01-01T06:05:01Z",
+	    "deadline": "2022-01-29T06:05:04Z"
+    }
+
 Kullanıcı proje yönetici ise istediği tüm projeleri listeleyebilir ve kullanıcı filtreleyebilir.
 Normal kullanıcılar ise sadece kendi projelerini listeleyebilirler.
 
