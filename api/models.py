@@ -5,7 +5,7 @@ from django.db import models
 class Users(AbstractUser):
     isProjectManager = models.BooleanField(default=False)
 
-
+#yorum
 class Projects(models.Model):
     user = models.ForeignKey(Users, on_delete=models.CASCADE, related_name='projects')
     name = models.CharField(max_length=64, unique=True)
